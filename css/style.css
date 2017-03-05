@@ -2,11 +2,14 @@
 body {
     padding-top: 85px;
     font-family: 'changa one', sans-serif;
+    background-color:#f7f5f0;
 }
 
 .gallery-title {
-  border-bottom: 5px solid #95B7ED;
+  border-bottom: 3px solid #95B7ED;
   text-align: center;
+  text-shadow: 1px 1px teal;
+  letter-spacing: 1px;
 }
 
 /* Navigation */
@@ -21,6 +24,7 @@ ul {
 .title-name, .job-title{
     text-align: center;
 
+
 }
 
 .title-name {
@@ -29,6 +33,7 @@ ul {
   font-size: 1.75em;
   font-weight: bold;
   line-height: 0.8em;
+  text-shadow: 1px 2px red;
 
 }
 
@@ -36,6 +41,7 @@ ul {
   font-size: 0.75em;
   margin: -5px 0 0;
   font-weight: normal;
+  text-shadow: 1px 2px lightslategrey;
 
 }
 
@@ -111,6 +117,11 @@ ul {
   list-style: none;
 }
 
+#code {
+  text-align: center;
+  text-shadow: 1px 2px teal;
+}
+
 
 
 
@@ -120,20 +131,59 @@ ul {
 #contact {
     background-color: #ed1414;
     text-align: center;
+    color: #41eae2;
+    text-shadow: 2px 1px black;
 }
 
 #contact i {
     padding: 5px 5px 5px 5px;
 }
 
+#contact h2 {
+  text-shadow: 2px 2px black;
+  letter-spacing: 1px;
+  margin-top:10px;
+}
+
 .social-buttons {
-  text-align: right;
+  display:inline-block;
+  height:40px;
+
+}
+
+/*add push button effect */
+.btn:focus {
+  background: #e0e0e0;
+  outline: none;
+  -webkit-box-shadow: inset 0px 0px 4px #ccc;
+     -moz-box-shadow: inset 0px 0px 4px #ccc;
+          box-shadow: inset 0px 0px 4px #ccc;
 }
 
 #email em {
   display: block;
   border-width:0px;
   background-color:inherit;
+  margin-bottom: -2px;
+}
+
+#phone {
+    background-color: inherit;
+    border-width: 0px;
+    display: block;
+    letter-spacing: 5px;
+}
+#phone em {
+  margin-right: 3px;
+}
+
+#phone a {
+  color:white
+}
+
+#coffee-music {
+  color:#e6e8e6;
+  letter-spacing: 1px;
 }
 
 #codecamp {
@@ -143,36 +193,37 @@ ul {
   width: 42px;
   padding: 4px 3px 30px 3px;
   border-radius: 50px;
+  margin-right: 8px;
 
 }
 /*buttons */
 
 #linkedin {
-    border-width: 0px;
-    height: 40px;
-    width: 55px;
-    padding: 6px 5.5px 47px 6px;
-    margin: 10px;
-    border-radius: 35px;
+  border-width: 0px;
+  height: 8px;
+  width: 42px;
+  padding: 4px 2px 32px 2px;
+  border-radius: 50px;
+  margin-right: 8px;
 }
 
 #github {
-    border-width: 0px;
-    height: 40px;
-    width: 55px;
-    padding: 5px 4.5px 45px 5px;
-    margin: 10px;
-    border-radius: 40px;
+  border-width: 0px;
+  height: 8px;
+  width: 40px;
+  padding: 4px 2px 32px 2px;
+  border-radius: 50px;
+  margin-right: 8px;
 }
 
 #codepen {
   background: #000000;
   border-width: 0px;
-  height: 40px;
-  width: 55px;
-  padding: 5px 4.5px 45px 5px;
-  margin: 10px;
-  border-radius: 40px;
+  height: 8px;
+  width: 40px;
+  padding: 4px 2px 32px 2px;
+  border-radius: 50px;
+
 }
 
 /*footer */
@@ -185,6 +236,7 @@ footer {
 
 /*Displays name and title in navigation*/
 @media screen and (min-width: 480px) {
+  /* Navigation and about section breakpoint style */
   .title-name, .job-title {
       text-align: left;
 
@@ -242,4 +294,14 @@ footer {
     font-size: 1.2em;
   }
 
+  /*Contact page breakpoint */
+  .social-buttons {
+    display:block;
+    text-align: right;
+    height:40px;
+  }
+
+  #phone {
+    display:inline-block;
+  }
 }
