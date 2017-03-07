@@ -2,7 +2,7 @@
 body {
     padding-top: 85px;
     font-family: 'changa one', sans-serif;
-    background-color:#f7f5f0;
+    background-color:#f7f7f7;
 }
 
 .gallery-title {
@@ -103,9 +103,12 @@ ul {
 
 #portfolio {
 
-    background-color: beige;
-    padding: 50px;
     list-style: none;
+    padding: 20px 40px 40px;
+    text-align: left;
+    background: beige;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
 
 }
 
@@ -128,11 +131,22 @@ ul {
 
 /* contact page */
 
+  .contact-container {
+    margin-top:20px;
+    padding: 15px 30px 5px;
+    max-width: 1135px;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+    width:93%;
+  }
+
 #contact {
     background-color: #ed1414;
     text-align: center;
     color: #41eae2;
     text-shadow: 2px 1px black;
+    border-radius: 7px;
 }
 
 #contact i {
@@ -235,7 +249,7 @@ footer {
 
 
 /*Displays name and title in navigation*/
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 555px) {
   /* Navigation and about section breakpoint style */
   .title-name, .job-title {
       text-align: left;
@@ -278,7 +292,7 @@ footer {
 
   #about,
   #portfolio {
-    margin-right: 2px;
+    margin-right: 0px;
   }
 
   .img-me {
@@ -297,11 +311,18 @@ footer {
   /*Contact page breakpoint */
   .social-buttons {
     display:block;
-    text-align: right;
+    text-align: center;
     height:40px;
   }
 
   #phone {
     display:inline-block;
   }
+
+  .contact-container {
+    margin-top: 20px;
+
+  }
+
+
 }
