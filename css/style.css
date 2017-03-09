@@ -192,7 +192,8 @@ ul {
 }
 
 #phone a {
-  color:white
+  color:white;
+  line-height: 3.4em;
 }
 
 #coffee-music {
@@ -321,8 +322,13 @@ footer {
 
   .contact-container {
     margin-top: 20px;
-
   }
 
 
+}
+
+@media screen and (min-width: 770px) {
+  .contact-container {
+    width:92%;
+  }
 }
