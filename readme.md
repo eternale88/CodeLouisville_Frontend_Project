@@ -15,7 +15,7 @@ The lastest version of your preferred OS
 Clone or download to your local machine
 
 ## Test
-https://github.com/eternale88/eternale88.github.io
+ https://eternale88.github.io/
 
 ## API Reference
 
