@@ -10,9 +10,11 @@ a host for my future projects
 
 ## Installation
 
-The lastest version of your preferred OS
+Clone or download to your local machine and run index.html
 
-Clone or download to your local machine
+or
+
+view at https://eternale88.github.io/
 
 ## Test
  https://eternale88.github.io/
