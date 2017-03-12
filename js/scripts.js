@@ -1,13 +1,26 @@
-$(document).ready(function(){
+$(document).ready( () => {
     $("#self-image").hide().show("slow");
+}); /*Loads profile image after page load */
+
+
+/* add color to footer buttons individually apon clicking */
+const codeCampButton = document.getElementById("codecamp");
+const linkedinButton = document.getElementById("linkedin");
+const githubButton = document.getElementById("github");
+const codepenButton = document.getElementById("codepen");
+
+codeCampButton.addEventListener("click", () => {
+  codeCampButton.style.color = "red";
 });
 
+linkedinButton.addEventListener("click", () => {
+  linkedinButton.style.color = "yellow";
+});
 
-/* Code for Widget that displays treehouse progress-credit-
- https://github.com/rileyhilliard/reportcard */
+githubButton.addEventListener("click", () => {
+  githubButton.style.color = "white";
+});
 
- $('.report-card.treehouse').reportCard({
-    userName: 'ethanrobbins',
-    site: 'treehouse',
-    badgesAmount: 7
+codepenButton.addEventListener("click", () => {
+  codepenButton.style.color = "purple";
 });
