@@ -84,7 +84,7 @@ ul {
 
 
 .background-image {
-  background: url("../img/Druid.jpg") no-repeat center; /*question at meetup*/
+  background: url("../img/Druid.jpg") no-repeat center; 
   background-size: cover;
   margin-bottom: 10px;
   text-align: center;
