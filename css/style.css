@@ -84,7 +84,7 @@ ul {
 
 
 .background-image {
-  background: url("../img/Druid.jpg") no-repeat center; 
+  background: url("../img/Druid.jpg") no-repeat center;
   background-size: cover;
   margin-bottom: 10px;
   text-align: center;
@@ -201,6 +201,11 @@ ul {
   letter-spacing: 1px;
 }
 
+/*button styling and add hover on buttons */
+
+#codecamp:hover {
+  color: red;
+}
 #codecamp {
   background: rgb(0, 100, 0);
   border-width: 0px;
@@ -211,7 +216,10 @@ ul {
   margin-right: 8px;
 
 }
-/*buttons */
+
+#linkedin:hover {
+  color: lightblue;
+}
 
 #linkedin {
   border-width: 0px;
@@ -220,6 +228,10 @@ ul {
   padding: 4px 2px 32px 2px;
   border-radius: 50px;
   margin-right: 8px;
+}
+
+#github:hover {
+  color: darkgrey;
 }
 
 #github {
@@ -231,6 +243,9 @@ ul {
   margin-right: 8px;
 }
 
+#codepen:hover {
+  color: crimson;
+}
 #codepen {
   background: #000000;
   border-width: 0px;
