@@ -26,7 +26,6 @@ jQuery - http://api.jquery.com/
 Bootstrap3 - http://getbootstrap.com/css/
 
 ## Acknowledgements
-Mitchell Starkey and Scott Corgen for their help and guidance
 
 Lokesh Dhakar for the lightbox effect - http://lokeshdhakar.com/projects/lightbox2/
 
