@@ -1,7 +1,7 @@
 
 ## Synopsis
 
-My portfolio website built with HTML5, CSS3, Bootstrap3, and jQuery
+My first portfolio website built with HTML5, CSS3, Bootstrap3, and jQuery - ## I have since built a new one [https://eternale88.github.io/Website/]  but this one is still shows somes skills I would like to highlight.
 
 ## Motivation
 
