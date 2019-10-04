@@ -5,7 +5,7 @@ My first portfolio website built with HTML5, CSS3, Bootstrap3, and jQuery - ## I
 
 ## Motivation
 
-To showcase the skills I learned in Code Louisville's Frontend Web Development program and provide 
+To showcase the skills I learned in Code Louisville's Frontend Web Development program, Responsive Web Design, CSS positioning, JavaScript and provide 
 a host for my future projects
 
 ## Installation
