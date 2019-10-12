@@ -1,0 +1,349 @@
+/* General*/
+body {
+    padding-top: 85px;
+    font-family: 'changa one', sans-serif;
+    background-color:#f7f7f7;
+}
+
+.gallery-title {
+  border-bottom: 3px solid #95B7ED;
+  text-align: center;
+  text-shadow: 1px 1px teal;
+  letter-spacing: 1px;
+}
+
+/* Navigation */
+#nav {
+  background-color: black;
+  color: #fff;
+}
+ul {
+    text-align: center;
+}
+
+.title-name, .job-title{
+    text-align: center;
+
+
+}
+
+.title-name {
+  font-family: 'Changa One', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: bold;
+  line-height: 0.8em;
+  text-shadow: 1px 2px red;
+
+}
+
+.job-title {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+  text-shadow: 1px 2px lightslategrey;
+
+}
+
+
+.nav-row li {
+  color: #0399ff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/*changes text color to yellow apon hovering */
+.nav-row li:hover {
+  color: yellow;
+}
+
+
+/* About */
+#about {
+    color: white;
+    height: 376px;
+  }
+
+  #about h3 {
+    font-style: italic;
+    color: black;
+    margin: 40px auto;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #efefef;
+    display: table;
+    text-shadow: 2px 2px 1px darkgrey;
+}
+
+.img-me {
+  border: 3px solid #fff;
+  width: 37%;
+  margin-top: 25px;
+  text-align: center;
+}
+
+
+.background-image {
+  background: url("../img/Druid.jpg") no-repeat center;
+  background-size: cover;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.jumbotron p {
+  text-shadow: 2px 2px 1px #e60b0b;
+  font-size: 1.15em;
+}
+
+
+
+/* Portfolio section*/
+
+
+
+#portfolio {
+
+    list-style: none;
+    padding: 20px 40px 40px;
+    text-align: left;
+    background: beige;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+
+}
+
+#gallery  a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;
+  list-style: none;
+}
+
+#code {
+  text-align: center;
+  text-shadow: 1px 2px teal;
+}
+
+
+
+
+
+/* contact page */
+
+  .contact-container {
+    margin-top:20px;
+    padding: 15px 30px 5px;
+    max-width: 1135px;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+    width:93%;
+  }
+
+#contact {
+    background-color: #ed1414;
+    text-align: center;
+    color: #41eae2;
+    text-shadow: 2px 1px black;
+    border-radius: 7px;
+}
+
+#contact i {
+    padding: 5px 5px 5px 5px;
+}
+
+#contact h2 {
+  text-shadow: 2px 2px black;
+  letter-spacing: 1px;
+  margin-top:10px;
+}
+
+.social-buttons {
+  display:inline-block;
+  height:40px;
+
+}
+
+/*add push button effect */
+.btn:focus {
+  background: #e0e0e0;
+  outline: none;
+  -webkit-box-shadow: inset 0px 0px 4px #ccc;
+     -moz-box-shadow: inset 0px 0px 4px #ccc;
+          box-shadow: inset 0px 0px 4px #ccc;
+}
+
+#email em {
+  display: block;
+  border-width:0px;
+  background-color:inherit;
+  margin-bottom: -2px;
+}
+
+#phone {
+    background-color: inherit;
+    border-width: 0px;
+    display: block;
+    letter-spacing: 5px;
+}
+#phone em {
+  margin-right: 3px;
+}
+
+#phone a {
+  color:white;
+  line-height: 3.4em;
+}
+
+#coffee-music {
+  color:#e6e8e6;
+  letter-spacing: 1px;
+}
+
+/*button styling and add hover on buttons */
+
+#codecamp:hover {
+  color: red;
+}
+#codecamp {
+  background: rgb(0, 100, 0);
+  border-width: 0px;
+  height: 8px;
+  width: 42px;
+  padding: 4px 3px 30px 3px;
+  border-radius: 50px;
+  margin-right: 8px;
+
+}
+
+#linkedin:hover {
+  color: lightblue;
+}
+
+#linkedin {
+  border-width: 0px;
+  height: 8px;
+  width: 42px;
+  padding: 4px 2px 32px 2px;
+  border-radius: 50px;
+  margin-right: 8px;
+}
+
+#github:hover {
+  color: darkgrey;
+}
+
+#github {
+  border-width: 0px;
+  height: 8px;
+  width: 40px;
+  padding: 4px 2px 32px 2px;
+  border-radius: 50px;
+  margin-right: 8px;
+}
+
+#codepen:hover {
+  color: crimson;
+}
+#codepen {
+  background: #000000;
+  border-width: 0px;
+  height: 8px;
+  width: 40px;
+  padding: 4px 2px 32px 2px;
+  border-radius: 50px;
+
+}
+
+/*footer */
+footer {
+  text-align: center;
+}
+
+
+
+
+/*Displays name and title in navigation*/
+@media screen and (min-width: 555px) {
+  /* Navigation and about section breakpoint style */
+  .title-name, .job-title {
+      text-align: left;
+
+}
+
+.title-name {
+  font-size: 2.5em;
+}
+
+.job-title {
+  font-size: 1em;
+}
+
+  .nav-row {
+    position: absolute;
+    top: 17px;
+    right: 22px;
+    margin: 5px 15px 10px 10px;
+    word-spacing: 1em;
+    font-size: 1.2em;
+
+  }
+
+  #nav {
+    height: 90px;
+  }
+
+  .nav-row li {
+    display: inline-block;
+    color: #0399ff;
+    font-weight: 700;
+
+  }
+
+  ul {
+    padding-top: 17px;
+    max-width: 1200px;
+  }
+
+  #about,
+  #portfolio {
+    margin-right: 0px;
+  }
+
+  .img-me {
+    width: 20%;
+    margin-top: -5px;
+  }
+
+  #about h3 {
+    margin-top: -5px;
+  }
+
+  .jumbotron p {
+    font-size: 1.2em;
+  }
+
+  /*Contact page breakpoint */
+  .social-buttons {
+    display:block;
+    text-align: center;
+    height:40px;
+  }
+
+  #phone {
+    display:inline-block;
+  }
+
+  .contact-container {
+    margin-top: 20px;
+  }
+
+
+}
+
+@media screen and (min-width: 770px) {
+  .contact-container {
+    width:92%;
+  }
+}
