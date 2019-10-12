@@ -1,0 +1,19 @@
+{
+  "name": "personal_portfolio",
+  "version": "1.0.0",
+  "description": "first portfolio site",
+  "main": "index.html",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eternale88/old-portfolio-site.git"
+  },
+  "author": "Ethan Robbins",
+  "license": "MIT",
+  "homepage": "https://eternale88.github.io/old-portfolio-site",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
